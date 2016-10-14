@@ -19,7 +19,7 @@ var isTyler = function (name) {
 
 
 var getName = function () {
-	var name = prompt(Please enter your name);
+	var name = prompt("Please enter your name");
 	if (name !== null) {
 		return name;
 	}
@@ -33,7 +33,7 @@ var getName = function () {
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-var welcome = function (getName) {
+var welcome = function () {
 	var name = getName();
 	alert("Welcome, " + name);
 }
