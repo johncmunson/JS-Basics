@@ -7,8 +7,7 @@ var name = 'Tyler';
 var isTyler = function (name) {
 	if (name === "Tyler") {
 		return true;
-	}
-	else {
+	} else {
 		return false;
 	}
 }
@@ -47,19 +46,19 @@ var welcome = function (getName) {
 
 //What is the difference between arguments and parameters?
 
-"If I'm a fn and I need to be passed some stuff, Id say 'Hey, pass me some parameters'."
-"But, If I'm a statement inside of the function and I needed to access what was passed in, I would refer to them as arguments."
+//"If I'm a fn and I need to be passed some stuff, Id say 'Hey, pass me some parameters'."
+//"But, If I'm a statement inside of the function and I needed to access what was passed in, I would refer to them as arguments."
 
 
 //////////////////PROBLEM 5////////////////////
 
 
 
-//What are all the falsy values in JavaScript and how do you check if something is falsy?
+// What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-"false, '', NaN, null, undefined, 0"
-"You can check if something is truthy or falsy by passing it into Boolean()"
+// "false, '', NaN, null, undefined, 0"
+// "You can check if something is truthy or falsy by passing it into Boolean()"
 
 
 
